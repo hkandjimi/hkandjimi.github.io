@@ -1,16 +1,16 @@
 ---
 layout: page
-title: submenus
+title: hobbies
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: publications
+  - title: Running
     permalink: /publications/
   - title: divider
-  - title: projects
+  - title: Car Projects
     permalink: /projects/
   - title: divider
-  - title: blog
+  - title: Dash Cam View
     permalink: /blog/
 ---
