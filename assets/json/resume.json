@@ -1,60 +1,176 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Herman Kandjimi",
+    "label": "Computer Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "hermand180@gmail.com",
+    "phone": "+264 81 406 0167",
+    "url": "https://hkandjimi-max.github.io",
+    "summary": "An African-born computer scientist, with a great passion for education , business and digital solutions",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Erf 2246, Stockholm St",
+      "postalCode": "WHK 9000",
+      "city": "Windhoek",
+      "countryCode": "NA", 
+      "region": "Khomasdal"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "hkandjimi",
+        "url": "https://www.linkedin.com/in/hkandjimi"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Namibia University of Science and Technology",
+      "position": "Lecturer : Software Engineering",
+      "location":"Windhoek, Namibia",
+      "url": "https://fci.nust.na/mr-herman-kandjimi",
+      "startDate": "2019-09-01",
+      "endDate": "",
+      "summary": ["Computer science and Software Engineering departmental governance and administration"],
+      "highlights": ["Conduct research relevant to specialization","Provide capacity building services to the community","Planning and updating curricula and lesson plan to continuously improve subject coverage."]
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Namibia University of Science and Technology",
+      "position": "Junior Lecturer : Software Engineering",
+      "location":"Windhoek, Namibia",
+      "url": "https://fci.nust.na/mr-herman-kandjimi",
+      "startDate": "2014-07-01",
+      "endDate": "2019-09-01",
+      "summary": ["Teaching, lecturing and provide assessments to students"],
+      "highlights": ["Integrating technology resources such as e-learning/moodle to diversify instruction and engage student interest",
+      "Planning and executing of various programming competitions.", "Student research supervision and software project mentorship"]
+    },
+    {
+      "name": "Namibia Training Authority",
+      "position": "VET Trainer + IT Specialist",
+      "location":"Rundu VTC, Kavango",
+      "url": "https://fci.nust.na/mr-herman-kandjimi",
+      "startDate": "2011-02-01",
+      "endDate": "2014-06-28",
+      "summary": ["Training Math and Science to vocational students, training basic IT courses to students and Technical IT support to Staff"],
+      "highlights": ["Systems installations and Network maintenances at the centre.",
+      "Setup desktop systems and laptops for incoming employees", "Configuration of required software and User accounts"]
+    },
+    {
+      "name": "Electoral Commission of Namibia",
+      "position": "IT Support Staff and Trainer",
+      "location":"Windhoek, Namibia",
+      "url": "https://fci.nust.na/mr-herman-kandjimi",
+      "startDate": "2010-06-01",
+      "endDate": "2010-12-25",
+      "summary": ["Provided local and remote first line IT support for hardware and software to ECN personnel throughout the 2010 election."],
+      "highlights": ["Systems installations and Network maintenances at the centre.",
+      "Setup desktop systems and laptops for incoming employees", "Configuration of required software and User accounts"]
     }
+    
   ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Cape Town",
+      "location": "Cape Town, ZA",
+      "url": "https://sit.uct.ac.za/",
+      "area": "Computer Science, Education Technology, Machine Learning, Natural Language Processing ",
+      "studyType": "PhD, Computer Science",
+      "startDate": "2023-02-01",
+      "endDate": "",
+      "score": "8",
+      "courses": ["Title: Modelling Students’ Source Code Evolutions To Provide Personalised Guidance During Practical Activities In Introductory Programming Courses",
+      "Supervisor: Prof. Hussein Suleman"
+      ]
+    },
+    {
+      "institution": "Namibia University Of Science And Technology, Harold Pupkewitz Graduate School Of Business",
+      "location": "Windhoek, Namibia",
+      "url": "https://hpgsb.nust.na/",
+      "area": "Business Administration and Management ",
+      "studyType": "Postgraduate Diploma in Management",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-01",
+      "score": "8",
+      "courses": ["Economics In Management Practice",
+      "Finance For Managers",
+      "General Management And Operations",
+      "Leadership And People Management",
+      "Project Leadership And Management",
+      "Strategic Marketing Management"
+      ]
+    },
+    {
+      "institution": "Centre for Development of Advanced Computing (C-DAC)",
+      "location": "Noida(Online), India",
+      "url": "https://www.cdac.in/",
+      "area": "Artificial Inteligence, Machine Learning",
+      "studyType": "Postgraduate Diploma in Artificial Intelligence(e-DAI)",
+      "startDate": "2021-09-01",
+      "endDate": "2022-04-01",
+      "score": "8",
+      "courses": ["Practical Data Analytics & Machine Learning",
+      "Natural Language Processing & Computer Vision",
+      "Deep Neural Networks & AI Computing Platforms, Applications and Trends"
+      ]
+    },
+    {
+      "institution": "Namibia University Of Science And Technology",
+      "location": "Windhoek, Namibia",
+      "url": "https://fchse.nust.na/postgraduate-certificate-higher-education",
+      "area": "Education - Teaching,  learning,  assessment  and  technology  support ",
+      "studyType": "Postgraduate Certificate in Higher Education",
+      "startDate": "2019-01-01",
+      "endDate": "2020-06-01",
+      "score": "8",
+      "courses": ["Teaching, Learning And Assessment",
+      "Curriculum Design And Development",
+      "Tech. Integration In Teaching And Learning"
+      ]
+    }
+    ,
+    {
+      "institution": "Namibia University Of Science And Technology",
+      "location": "Windhoek, Namibia",
+      "url": "https://fci.nust.na/master-computer-science-communication-networks-forensic-computing-information-security-software",
+      "area": "Software Development, Mobile Development, HCI ",
+      "studyType": "MSc, Computer Science",
+      "startDate": "2019-12-01",
+      "endDate": "2017-06-01",
+      "score": "9",
+      "courses": ["Thesis: Development And Usability Evaluation Of A Mobile-Based Multiplatform Interactive Museum Guide - iMuseum"]
+    },
+    {
+      "institution": "Namibia University Of Science And Technology",
+      "location": "Windhoek, Namibia",
+      "url": "https://fci.nust.na/bachelor-computer-science-honours-software-development",
+      "area": "Software Development, Mobile Development, HCI ",
+      "studyType": "Bachelor of Computer Science Honors in Software Development",
+      "startDate": "2015-12-01",
+      "endDate": "2015-01-01",
+      "score": "8",
+      "courses": ["Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"]
+    },
+    {
+      "institution": "University of Cape Town",
+      "location": "Cape Town, ZA",
+      "url": "https://fci.nust.na/bachelor-computer-science-honours-software-development",
+      "area": "Computer Science, Applied Mathematics ",
+      "studyType": "BSc in Information Technology",
+      "startDate": "2009-12-01",
+      "endDate": "2006-01-01",
+      "score": "7",
+      "courses": ["Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"]
     }
   ],
   "awards": [
@@ -150,7 +266,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Rukwangali",
       "fluency": "Native speaker",
       "icon": ""
     },
