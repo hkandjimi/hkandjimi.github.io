@@ -6,12 +6,12 @@
     "email": "hermand180@gmail.com",
     "phone": "+264 81 406 0167",
     "url": "https://hkandjimi-max.github.io",
-    "summary": "An African-born computer scientist, with a great passion for education , business and digital solutions",
+    "summary": "An African-born computer scientist, with a great passion for education, business and digital solutions",
     "location": {
       "address": "Erf 2246, Stockholm St",
       "postalCode": "WHK 9000",
       "city": "Windhoek",
-      "countryCode": "NA", 
+      "countryCode": "NA",
       "region": "Khomasdal"
     },
     "profiles": [
@@ -25,60 +25,68 @@
   "work": [
     {
       "name": "Namibia University of Science and Technology",
-      "position": "Lecturer : Software Engineering",
-      "location":"Windhoek, Namibia",
+      "position": "Lecturer: Software Engineering",
+      "location": "Windhoek, Namibia",
       "url": "https://fci.nust.na/mr-herman-kandjimi",
       "startDate": "2019-09-01",
       "endDate": "",
-      "summary": ["Computer science and Software Engineering departmental governance and administration"],
-      "highlights": ["Conduct research relevant to specialization","Provide capacity building services to the community","Planning and updating curricula and lesson plan to continuously improve subject coverage."]
+      "summary": [
+        "Computer science and Software Engineering departmental governance and administration"
+      ],
+      "highlights": [
+        "Conduct research relevant to specialization",
+        "Provide capacity building services to the community",
+        "Planning and updating curricula and lesson plans to continuously improve subject coverage."
+      ]
     },
     {
       "name": "Namibia University of Science and Technology",
-      "position": "Junior Lecturer : Software Engineering",
-      "location":"Windhoek, Namibia",
+      "position": "Junior Lecturer: Software Engineering",
+      "location": "Windhoek, Namibia",
       "url": "https://fci.nust.na/mr-herman-kandjimi",
       "startDate": "2014-07-01",
       "endDate": "2019-09-01",
-      "summary": ["Teaching, lecturing and provide assessments to students"],
-      "highlights": ["Integrating technology resources such as e-learning/moodle to diversify instruction and engage student interest",
-      "Planning and executing of various programming competitions.", "Student research supervision and software project mentorship"]
+      "summary": [
+        "Teaching, lecturing and providing assessments to students"
+      ],
+      "highlights": [
+        "Integrating technology resources such as e-learning/moodle to diversify instruction and engage student interest",
+        "Planning and executing of various programming competitions.",
+        "Student research supervision and software project mentorship"
+      ]
     },
     {
       "name": "Namibia Training Authority",
       "position": "VET Trainer + IT Specialist",
-      "location":"Rundu VTC, Kavango",
+      "location": "Rundu VTC, Kavango",
       "url": "https://fci.nust.na/mr-herman-kandjimi",
       "startDate": "2011-02-01",
       "endDate": "2014-06-28",
-      "summary": ["Training Math and Science to vocational students, training basic IT courses to students and Technical IT support to Staff"],
-      "highlights": ["Systems installations and Network maintenances at the centre.",
-      "Setup desktop systems and laptops for incoming employees", "Configuration of required software and User accounts"]
+      "summary": [
+        "Training Math and Science to vocational students, training basic IT courses to students and Technical IT support to Staff"
+      ],
+      "highlights": [
+        "Systems installations and Network maintenance at the centre.",
+        "Setup desktop systems and laptops for incoming employees",
+        "Configuration of required software and User accounts"
+      ]
     },
     {
       "name": "Electoral Commission of Namibia",
       "position": "IT Support Staff and Trainer",
-      "location":"Windhoek, Namibia",
+      "location": "Windhoek, Namibia",
       "url": "https://fci.nust.na/mr-herman-kandjimi",
       "startDate": "2010-06-01",
       "endDate": "2010-12-25",
-      "summary": ["Provided local and remote first line IT support for hardware and software to ECN personnel throughout the 2010 election."],
-      "highlights": ["Systems installations and Network maintenances at the centre.",
-      "Setup desktop systems and laptops for incoming employees", "Configuration of required software and User accounts"]
+      "summary": [
+        "Provided local and remote first-line IT support for hardware and software to ECN personnel throughout the 2010 election."
+      ],
+      "highlights": [
+        "Trained Polling officials on the new electronic voting system called ERIMS- Election Results Information Management System before the 2010 elections.",
+        "Setup Uplink systems in remote constituencies to allow for live voting"
+      ]
     }
-    
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
   "education": [
     {
       "institution": "University of Cape Town",
@@ -89,8 +97,9 @@
       "startDate": "2023-02-01",
       "endDate": "",
       "score": "8",
-      "courses": ["Title: Modelling Students’ Source Code Evolutions To Provide Personalised Guidance During Practical Activities In Introductory Programming Courses",
-      "Supervisor: Prof. Hussein Suleman"
+      "courses": [
+        "Title: Modelling Students’ Source Code Evolutions To Provide Personalised Guidance During Practical Activities In Introductory Programming Courses",
+        "Supervisor: Prof. Hussein Suleman"
       ]
     },
     {
@@ -102,26 +111,28 @@
       "startDate": "2022-01-01",
       "endDate": "2022-12-01",
       "score": "8",
-      "courses": ["Economics In Management Practice",
-      "Finance For Managers",
-      "General Management And Operations",
-      "Leadership And People Management",
-      "Project Leadership And Management",
-      "Strategic Marketing Management"
+      "courses": [
+        "Economics In Management Practice",
+        "Finance For Managers",
+        "General Management And Operations",
+        "Leadership And People Management",
+        "Project Leadership And Management",
+        "Strategic Marketing Management"
       ]
     },
     {
       "institution": "Centre for Development of Advanced Computing (C-DAC)",
       "location": "Noida(Online), India",
       "url": "https://www.cdac.in/",
-      "area": "Artificial Inteligence, Machine Learning",
+      "area": "Artificial Intelligence, Machine Learning",
       "studyType": "Postgraduate Diploma in Artificial Intelligence(e-DAI)",
       "startDate": "2021-09-01",
       "endDate": "2022-04-01",
       "score": "8",
-      "courses": ["Practical Data Analytics & Machine Learning",
-      "Natural Language Processing & Computer Vision",
-      "Deep Neural Networks & AI Computing Platforms, Applications and Trends"
+      "courses": [
+        "Practical Data Analytics & Machine Learning",
+        "Natural Language Processing & Computer Vision",
+        "Deep Neural Networks & AI Computing Platforms, Applications and Trends"
       ]
     },
     {
@@ -133,12 +144,12 @@
       "startDate": "2019-01-01",
       "endDate": "2020-06-01",
       "score": "8",
-      "courses": ["Teaching, Learning And Assessment",
-      "Curriculum Design And Development",
-      "Tech. Integration In Teaching And Learning"
+      "courses": [
+        "Teaching, Learning and Assessment",
+        "Curriculum Design and Development",
+        "Technology Integration in Teaching and Learning"
       ]
-    }
-    ,
+    },
     {
       "institution": "Namibia University Of Science And Technology",
       "location": "Windhoek, Namibia",
@@ -148,7 +159,9 @@
       "startDate": "2019-12-01",
       "endDate": "2017-06-01",
       "score": "9",
-      "courses": ["Thesis: Development And Usability Evaluation Of A Mobile-Based Multiplatform Interactive Museum Guide - iMuseum"]
+      "courses": [
+        "Thesis: Development And Usability Evaluation Of A Mobile-Based Multiplatform Interactive Museum Guide - iMuseum"
+      ]
     },
     {
       "institution": "Namibia University Of Science And Technology",
@@ -159,7 +172,9 @@
       "startDate": "2015-12-01",
       "endDate": "2015-01-01",
       "score": "8",
-      "courses": ["Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"]
+      "courses": [
+        "Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"
+      ]
     },
     {
       "institution": "University of Cape Town",
@@ -170,63 +185,57 @@
       "startDate": "2009-12-01",
       "endDate": "2006-01-01",
       "score": "7",
-      "courses": ["Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"]
+      "courses": [
+        "Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Hasso Plattner Institute (HPI) Fellowship",
+      "date": "2023-02-01",
+      "awarder": "HPI Research School at UCT",
+      "url": "https://sit.uct.ac.za/hpi-research-school",
+      "summary": "The Hasso-Plattner Institute (HPI) Research School at the University of Cape Town, affiliated with the School of Information Technology at the University of Cape Town, annually grants PhD and Postdoctoral fellowships to qualifying students from the African continent in the fields of Computer Science (CS) and Information Systems (IS). We seek high-quality applications centred on ideas that revolve around proposing and evaluating solutions to problems of computer science and information systems that emerge in the African context."
+    },
+    {
+      "title": "Young Leaders Programme in Vocational Training Education",
+      "date": "2012-02-01",
+      "awarder": "Japan International Cooperation Agency - JICA",
+      "url": "https://www.jica.go.jp/english/",
+      "summary": [
+        "The Young Leaders Training Programme has seen Africans participating for several years now studying in Japan in the following areas:",
+        "Education (Primary & Lower Secondary School Teachers)",
+        "Technical(Technical and Vocational Education and Training)",
+        "Social Security (Disabilities' Programme Leaders)",
+        "Agriculture/Rural Development (FY2008)"
+      ]
     }
   ],
-  "certificates": [
+  "certificates--": [
     {
-      "name": "Machine Learning",
+      "name": "Certificate for Cleanliness and Discipline",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "issuer": "Elcin Nkurenkuru High School",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "name": " Best Overall Performed student in Grade 12",
+      "date": "2005-11-01",
+      "issuer": "Elcin Nkurenkuru High School",
       "url": "https://example.com",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "name": "Certificate of Achievement: First Class Position (2001 - 2005)",
+      "date": "2005-11-01",
+      "issuer": "Elcin Nkurenkuru High School",
       "url": "https://example.com",
       "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
+  "publications--": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
       "publisher": "Annalen der Physik",
@@ -251,16 +260,39 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Computer Science, Education",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fas fa-chalkboard-teacher",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Interactive teaching/learning, student-centred learning and classroom technologies Integration",
+        "Creative lesson plan development and training program administration",
+        "Team player, Self-motivated and strong collaborative skills",
+        "Creative, Open-minded and Fast learner",
+        "Experience in various Databases, from PL/SQL to no-SQL databases"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Master",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Software design, development, testing, documentation and reporting",
+        "Excellent problem-solving skills",
+        "Programming languages and frameworks: Java, JavaScript, C++, C#, Swift, Python, Angular, React and Flutter etc.",
+        "Source control - Git and GitHub",
+        "Web and Mobile applications development",
+        "Data science, algorithms, and machine learning."
+      ]
+    },
+    {
+      "name": "Business Administration and Management",
+      "level": "Master",
+      "icon": "fa-solid fa-business-time",
+      "keywords": [
+        "Business process automation",
+        "Business Finance and Economics",
+        "Project Leadership And Management",
+        "Strategic Marketing Management"
       ]
     }
   ],
@@ -276,37 +308,116 @@
       "icon": ""
     }
   ],
+  "volunteer": [
+    {
+      "organization": "Mobile Telecommunications Ltd (MTC) & NUST ",
+      "position": "Project Team Lead/Supervisor",
+      "url": "https://example.com",
+      "startDate": "2019-06-01",
+      "endDate": "2019-12-01",
+      "summary": "Supervised and Managed a team of student developers at MTC while working on the IPO project.",
+      "highlights": [
+        "Employed the use of MEAN stack framework to produce a scalable and stable product.",
+        "Project completed within 6 months with student developers."
+      ]
+    },
+    {
+      "organization": "Independence Memorial Museum & NUST ",
+      "position": "Honours -  Master Project Developer",
+      "url": "https://imuseum-4e0f6.firebaseapp.com/#/",
+      "startDate": "2016-01-01",
+      "endDate": "2019-12-01",
+      "summary": "Developed an interactive and location-aware multi-platform mobile application for the Independence Memorial Museum",
+      "highlights": [
+        "Created a progressive web application, that links to a multi-platform mobile tour guide.",
+        "Explored and implemented the use of Bluetooth low energy(iBeacons) for indoor location."
+      ]
+    }
+  ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Reading",
+      "level": "Master",
+      "icon": "fa-solid fa-book-reader",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Self-help",
+        "Motivational",
+        "Business and Economics",
+        "Career guides",
+        "Science Journals"
+      ]
+    },
+    {
+      "name": "Sports",
+      "level": "Master",
+      "icon": "fa-solid fa-person-running",
+      "keywords": [
+        "Running",
+        "Hiking",
+        "Cycling",
+        "Weightlifting",
+        "Soccer"
+      ]
+    },
+    {
+      "name": "Videos",
+      "level": "Master",
+      "icon": "fa-solid fa-tv",
+      "keywords": [
+        "SciFi, Comedy, Crime, Drama, Action",
+        "Documentaries, Wildlife, Travel ",
+        "YT: Comedy, Travel Music Mix, Music Videos, DIY, Car Tuning "
+      ]
+    },
+    {
+      "name": "Music",
+      "level": "Master",
+      "icon": "fa-solid fa-music",
+      "keywords": [
+        "House",
+        "Rhythm and blues",
+        "HipHop & Rap ",
+        "Country & Rock",
+        "Soul & Kizomba",
+        "Afrobeat",
+        "All Namibian Music"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Dr. Colin Stanley",
+      "icon": "fa-solid fa-user-tie",
+      "title": "Acting Deputy Vice-Chancellor: Research, Innovation and Partnerships",
+      "Telephone": "+(264) 061 207 2752",
+      "E-Mail": "cstanley@nust.na",
+      "Institution": "Namibia University of Science and Technology"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Fungai Bhunu Shava",
+      "icon": "fa-solid fa-user-graduate",
+      "title": "Acting Dean – Faculty Computing and Informatics",
+      "Institution": "Namibia University of Science and Technology",
+      "Telephone": "+(264) 061 207 2510",
+      "E-Mail": "fbshava@nust.na"
+    },
+    {
+      "name": "Mrs. Bonita Graupe",
+      "icon": "fa-solid fa-laptop",
+      "title": "Manager IT Development",
+      "Institution": "Mobile Telecommunications Ltd (MTC)",
+      "Telephone": "+(264) 81 888 2132",
+      "E-Mail": "BGraupe@mtc.com.na"
     }
   ],
-  "projects": [
+  "projects--": [
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "highlights": [
+        "Quantum Teleportation",
+        "Quantum Cryptography"
+      ],
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"

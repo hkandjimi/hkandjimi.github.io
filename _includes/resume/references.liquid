@@ -20,8 +20,33 @@
           </tr>
           <tr>
             <td></td>
+            <td class="fst-italic">
+              <b>{{ content.title }}</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-location-dot"></i>
+            </td>
             <td class="list-group-name">
-              <b>{{ content.reference }}</b>
+              <b>{{ content.Institution }}</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-phone"></i>
+            </td>
+            <td class="list-group-name fs-5">
+              <a href="tel:{{ content.Telephone }}">{{ content.Telephone }}</a>
+              <!-- b>{{ content.Telephone }}</b -->
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-envelope"></i>
+            </td>
+            <td class="list-group-name fs-5">
+              <a href="mailto:{{ content.E-Mail }}" target="_blank">{{ content.E-Mail }}</a>
             </td>
           </tr>
         </tbody>

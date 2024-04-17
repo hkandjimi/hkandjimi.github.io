@@ -11,9 +11,9 @@ layout: default
             href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+            class="float-right">
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -57,9 +57,9 @@ layout: default
             href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+            class="float-right">
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -75,37 +75,47 @@ layout: default
               {% continue %}
             {% endunless %}
           {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+          {% if data[0] == 'meta' or data[1].size == 0 %}
+            {% continue %}
+          {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% if data[0] == 'awards' %}
+              <h3 class="card-title font-weight-medium">Fellowships and Scholarships</h3>
+            {% elsif data[0] == 'volunteer' %}
+              <h3 class="card-title font-weight-medium">Accomplishments</h3>
+            {% else %}
+              <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% endif %}
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
-                  {% include resume/basics.liquid %}
+                {% include resume/basics.liquid %}
                 {% when 'education' %}
-                  {% include resume/education.liquid %}
+                {% include resume/education.liquid %}
                 {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
+                {% include resume/work.liquid %}
                 {% when 'projects' %}
-                  {% include resume/projects.liquid %}
+                {% include resume/projects.liquid %}
                 {% when 'awards' %}
-                  {% include resume/awards.liquid %}
+                {% include resume/awards.liquid %}
                 {% when 'skills' %}
-                  {% include resume/skills.liquid %}
+                {% include resume/skills.liquid %}
                 {% when 'publications' %}
-                  {% include resume/publications.liquid %}
+                <div class="publications">
+                  {% bibliography --group_by none --query @*[selected=true]* %}
+                </div>
+                {% when 'volunteer' %}
+                {% include resume/volunteer.liquid %}
                 {% when 'languages' %}
-                  {% include resume/languages.liquid %}
+                {% include resume/languages.liquid %}
                 {% when 'interests' %}
-                  {% include resume/interests.liquid %}
+                {% include resume/interests.liquid %}
                 {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
+                {% include resume/certificates.liquid %}
                 {% when 'references' %}
-                  {% include resume/references.liquid %}
-                {% else %}
+                {% include resume/references.liquid %}
+            {% else %}
 
               {% endcase %}
             </div>
