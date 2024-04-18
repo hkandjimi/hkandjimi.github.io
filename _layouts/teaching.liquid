@@ -5,7 +5,7 @@ layout: default
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
-        {{ page.title }} : Academic Teaching and Supervision
+        {{ page.title }} :test
         {% if page.cv_pdf %}
           <a
             href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
@@ -23,7 +23,7 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for entry in site.data.cv %}
+        {% for entry in site.data.teaching %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
@@ -51,7 +51,8 @@ layout: default
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
-        {{ page.title }}
+        <!-- {{ page.title }} -->
+        Academic Teaching and Supervision
         {% if page.cv_pdf %}
           <a
             href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
@@ -69,9 +70,9 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for data in site.data.teaching %}
+        {% for data in site.data.resume %}
           {% if site.jsonteaching and site.jsonteaching.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
+            {% unless site.jsonteaching contains data[0] %}
               {% continue %}
             {% endunless %}
           {% endif %}
@@ -90,12 +91,12 @@ layout: default
             {% endif %}
             <div>
               {% case data[0] %}
-                {% when 'basics' %}
-                {% include resume/basics.liquid %}
                 {% when 'education' %}
-                {% include resume/education.liquid %}
+                {% include teaching/education.liquid %}
                 {% when 'awards' %}
-                {% include resume/awards.liquid %}
+                {% include teaching/awards.liquid %}
+                {% when 'certificates' %}
+                {% include resume/certificates.liquid %}
             {% else %}
 
               {% endcase %}

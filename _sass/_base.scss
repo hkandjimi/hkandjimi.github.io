@@ -248,6 +248,7 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  
 }
 
 .navbar .dropdown-menu {
@@ -309,17 +310,33 @@ ul.task-list input[type="checkbox"] {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
-
+    // a {
+    //   i::before {
+    //     color: var(--global-text-color);
+    //     transition-property: all 0.2s ease-in-out;
+    //   }
+    //   &:hover {
+    //     i::before{
+    //       color: var(--global-theme-color);
+    //     }
+    //   }
+    // }
     a {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
-
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
+      &:hover i.fa-linkedin::before {
+        color:  #0077b5/* Hover color specifically for fa-linkedin */
+      }
+      &:hover i.fa-instagram::before {
+        color: #fbad50; /* Hover color specifically for fa-instagram */
+      }
+      &:hover i.fa-whatsapp::before {
+        color: #25D366; /* Hover color specifically for fa-whatsapp */
+      }
+      &:hover i:not(.fa-linkedin):not(.fa-instagram):not(.fa-whatsapp)::before {
+        color: var(--global-theme-color); /* Default hover color for all other icons */
       }
     }
   }
@@ -1079,6 +1096,7 @@ nav[data-toggle="toc"] {
     }
 
     &:hover {
+      
       color: var(--global-theme-color);
 
       .card-title {

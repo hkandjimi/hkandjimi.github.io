@@ -28,7 +28,7 @@ social: false # includes social icons at the bottom of the page
 
 A diligent scholar who is always seeking opportunities to further his knowledge and enhance his professional competitiveness.Currently enrolled at the University of Cape Town pursuing a PhD in Computer Science, exploring the application of machine learning and digital tools towards personalized learning environments for the future . Aims to enhance computer literacy and development of digital solutions tailored to African problems. Advocates for active reading in homes, sports participation and promotes innovation and entrepreneurship in the community.
 
-Currently pursuing a postgraduate diploma in management to improve managerial competencies in business acumen, performance management and organizational culture. 
+Currently pursuing a postgraduate diploma in management to improve managerial competencies in business acumen, performance management and organizational culture. mn,xmnz,
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
