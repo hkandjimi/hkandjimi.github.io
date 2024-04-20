@@ -1,80 +1,100 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Ford Ranger T6 to Hi-Rider with Raptor theme
+subtitle: Ranger T6
+description: Transformation for Ford Ranger T6 Base to Hi-Rider with a Raptor theme. Spent alot of time and resources on this project, and the results were amazing. 
+img: assets/img/projects/rangert6.jpg
 importance: 3
-category: fun
+category: Previous
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The Ford Ranger (T6) was introduce to me around 2014, a few years just after it's launch in Namibia and I automaticaly impress by it's looks - there was so much to play with on this models.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Following my limited budget, I bought my vehicle base or even lower then base - I only had a radio and A/C plus the paintwork and metals welded together  of course. 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/rangert61.jpg" title="Novel pic" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/rangert62.jpg" title="Skeleton" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+   Frame 1 is how I got the car from <a href="https://facebook.com/https://www.facebook.com/NovelFordWindhoek1?mibextid=LQQJ4d" title="Facebook">Novel Ford Windoek</a>, "Showroom condition " they said, following my pocket. Well frame 2 was the first modification I did which was just branding it with my name and upgraded to 16" Mag rims, then took a long desert trip from Windhoek through the Naukluft park to swakop the down the Skeleton Coast, some how end up in my home town - Rundu.
+</div>
+
+Next was rebranding the car back to a Ranger and upgrade on the rims as well as wheel spaces. This gave the car a buff look and more aggressive on the road, despite the noise from the wide tyres. The decals were custom designed by myself and had then done by a print shop.
+<div class="row">
+    <div class="col-sm-5">
+        <div class="row-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/projects/rangert63.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="row-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/projects/rangert6.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+    <div class="col-sm-7 mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/projects/rangert644.jpg" title="example image" class="img-fluid rounded z-depth-1"%}
+    </div>
+</div>
+
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+
+After this I took out the car for some mud fun and a bit of off road play, collected a cow and had braai afterwards ..probably on a different day though.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert65.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert66.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert67.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+Due to all the rough driving with the bakkie with wide wheels, most of my center caps were damaged or had fallen off. My next approach was to design center caps with my company logo and have it printed with a 3D printer - came out clean like I imagened. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rimsbefore.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert70.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert711.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert72.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The final product fitted on the rims - should have repainted the rims too.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Finally I got the car resprayed and put on much better raptor decals - then sold it, I was done with this project and there seemed to be no mo ideas. Items not included the list above are the upgrade on the radio to an Android Infotainment Unit, Reverse Camera, Dynamic Turn signals on mirrors and LED lights for both the front and back. Below is a final look at the vehicle.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/rangert73.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/rangert76.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert75.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert77.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/rangert78.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<h2 class="fw-bold">MY BEST BUILD THUS FAR - C. SHELBY KNOWS THIS</h2>

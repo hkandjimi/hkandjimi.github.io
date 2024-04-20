@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: Kawasaki Ninja
+subtitle: Kawasaki
+description: Nothing but a dream to own and customize a Kawasaki Ninja,..Hopefully tame the speed machine on some long advantures around the SADC region.
+
+img: assets/img/projects/kawasaki4.webp
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: Current
 ---
 
 Every project has a beautiful feature showcase page.

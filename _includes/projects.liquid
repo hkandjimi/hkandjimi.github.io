@@ -4,24 +4,31 @@
     <div class="card hoverable">
       {% if project.img %}
         {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-        %}
+           include figure.liquid
+         loading = "eager"
+         path=project.img
+         sizes = "250px"
+         alt = "project thumbnail" %}
       {% endif %}
-      <div class="card-body">
-        <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+      <div class="card-body d-flex flex-column h-100">
+        <h2 class="card-title">{{ project.subtitle }}</h2>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+              <div
+                class="icon"
+                data-toggle="tooltip"
+                title="Code Repository">
+                <a href="{{ project.github }}">
+                  <i class="fa-brands fa-github gh-icon"></i>
+                </a>
               </div>
               {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <span
+                  class="stars"
+                  data-toggle="tooltip"
+                  title="GitHub Stars">
                   <i class="fa-solid fa-star"></i>
                   <span id="{{ project.github_stars }}-stars"></span>
                 </span>

@@ -638,13 +638,12 @@ footer.sticky-bottom {
       }
     }
   }
-
   .card {
+    min-height: 28rem;
     img {
       width: 100%;
     }
   }
-
   .card-item {
     width: auto;
     margin-bottom: 10px;

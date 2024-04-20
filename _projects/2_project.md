@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Toyota Hilux Y Series to Modern Look - Bumblebee Theme
+subtitle: Yellow Car
+description: A complete rebuild of my childhood vehicle, a Toyota Hilux Y series. It has been in the family for over 20 years and I'm currently rebuilding it and customizing it to a modern look.
+img: assets/img//projects/yellow.jpeg
 importance: 2
-category: work
+category: Current
 giscus_comments: true
 ---
 

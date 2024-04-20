@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Car Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my car projects. Stretching from current, previous work that might have not been successful, incomplete or abondoned to successful and proud projects. 
 # nav: true
 # nav_order: 3
-display_categories: [work, fun]
+display_categories: [Current, Previous]
 horizontal: false
 ---
 
