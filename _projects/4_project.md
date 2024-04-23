@@ -31,7 +31,15 @@ This was my first car project, I got it and was just experimenting and some how 
         {% include figure.liquid loading="eager" path="assets/img/projects/golf54.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/golf51.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/golf51.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<p align="center">
+<a href="../../assets/img/projects/golf53.jpeg" data-lightbox="g5"><i class="fa-solid fa-backward-fast"></i></a>
+<a href="../../assets/img/projects/golf54.jpeg" data-lightbox="g5">PREVIEW ALL</a>
+<a href="../../assets/img/projects/golf51.jpg" data-lightbox="g5" align=""><i class="fa-solid fa-forward-fast"></i></a>
+<a href="../../assets/img/projects/golf58.jpeg" data-lightbox="g5"></a>
+<a href="../../assets/img/projects/golf55.jpeg" data-lightbox="g5"></a>
+<a href="../../assets/img/projects/golf57.jpeg" data-lightbox="g5"></a>
+</p>
 <h2 class="fw-bold">LESSON - ALWAYS HAVE A PLAN</h2>

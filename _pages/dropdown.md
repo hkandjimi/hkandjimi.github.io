@@ -6,11 +6,11 @@ nav_order: 5
 dropdown: true
 children:
   - title: Running
-    permalink: /publications/
+    permalink: /running/
   - title: divider
   - title: Car Projects
     permalink: /projects/
   - title: divider
-  - title: Dash Cam View
+  - title: Travel Blog
     permalink: /blog/
 ---

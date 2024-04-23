@@ -156,8 +156,8 @@
       "url": "https://fci.nust.na/master-computer-science-communication-networks-forensic-computing-information-security-software",
       "area": "Software Development, Mobile Development, HCI ",
       "studyType": "MSc, Computer Science",
-      "startDate": "2019-12-01",
-      "endDate": "2017-06-01",
+      "startDate": "2017-06-01",
+      "endDate": "2019-12-01",
       "score": "9",
       "courses": [
         "Thesis: Development And Usability Evaluation Of A Mobile-Based Multiplatform Interactive Museum Guide - iMuseum"
@@ -169,8 +169,8 @@
       "url": "https://fci.nust.na/bachelor-computer-science-honours-software-development",
       "area": "Software Development, Mobile Development, HCI ",
       "studyType": "Bachelor of Computer Science Honors in Software Development",
-      "startDate": "2015-12-01",
-      "endDate": "2015-01-01",
+      "startDate": "2015-01-01",
+      "endDate": "2015-12-01",
       "score": "8",
       "courses": [
         "Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"
@@ -182,8 +182,8 @@
       "url": "https://fci.nust.na/bachelor-computer-science-honours-software-development",
       "area": "Computer Science, Applied Mathematics ",
       "studyType": "BSc in Information Technology",
-      "startDate": "2009-12-01",
-      "endDate": "2006-01-01",
+      "startDate": "2006-01-01",
+      "endDate": "2009-12-01",
       "score": "7",
       "courses": [
         "Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"
@@ -428,7 +428,7 @@
         "Self-help",
         "Motivational",
         "Business and Economics",
-        "Career guides",
+        "Career guidance",
         "Science Journals"
       ]
     },
@@ -459,13 +459,12 @@
       "level": "Master",
       "icon": "fa-solid fa-music",
       "keywords": [
-        "House",
+        "All Namibian Music",
+        "House, Afrobeat",
         "Rhythm and blues",
         "HipHop & Rap ",
-        "Country & Rock",
-        "Soul & Kizomba",
-        "Afrobeat",
-        "All Namibian Music"
+        "Country & Electro",
+        "Soul & Kizomba"
       ]
     }
   ],

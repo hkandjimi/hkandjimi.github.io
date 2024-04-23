@@ -97,4 +97,22 @@ Finally I got the car resprayed and put on much better raptor decals - then sold
         {% include figure.liquid loading="eager" path="assets/img/projects/rangert78.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<h2 class="fw-bold">MY BEST BUILD THUS FAR - C. SHELBY KNOWS THIS</h2>
+<p align="center">
+<a href="../../assets/img/projects/rangert75.jpg" data-lightbox="rangert6"><i class="fa-solid fa-backward-fast"></i></a>
+<a href="../../assets/img/projects/rangert77.jpg" data-lightbox="rangert6">PREVIEW ALL</a>
+<a href="../../assets/img/projects/rangert78.jpg" data-lightbox="rangert6" align=""><i class="fa-solid fa-forward-fast"></i></a>
+<a href="../../assets/img/projects/rangert61.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert62.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert63.jpeg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert6.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert644.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert65.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert66.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert67.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert70.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert711.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert72.jpg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert73.jpeg" data-lightbox="rangert6"></a>
+<a href="../../assets/img/projects/rangert76.jpg" data-lightbox="rangert6"></a>
+</p>
+<h2 class="fw-bold">MY BEST BUILD THUS FAR - C. SHELBY WOULD BE PROUD!!</h2>

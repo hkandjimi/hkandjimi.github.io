@@ -48,4 +48,14 @@ But boy, was I in for a ride, the vehicle started having issues first with the b
         {% include figure.liquid loading="eager" path="assets/img/projects/t76.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<p align="center">
+<a href="../../assets/img/projects/t78.jpeg" data-lightbox="t7"><i class="fa-solid fa-backward-fast"></i></a>
+<a href="../../assets/img/projects/t77.jpeg" data-lightbox="t7">PREVIEW ALL</a>
+<a href="../../assets/img/projects/t77.jpeg" data-lightbox="t7" align=""><i class="fa-solid fa-forward-fast"></i></a>
+<a href="../../assets/img/projects/t74.jpeg" data-lightbox="t7"></a>
+<a href="../../assets/img/projects/t72.jpeg" data-lightbox="t7"></a>
+<a href="../../assets/img/projects/t71.jpeg" data-lightbox="t7"></a>
+<a href="../../assets/img/projects/t73.jpeg" data-lightbox="t7"></a>
+<a href="../../assets/img/projects/t75.jpeg" data-lightbox="t7"></a>
+</p>
 <h2 class="fw-bold">LESSON - CHEAP IS EXPENSIVE</h2>

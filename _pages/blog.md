@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Travel Blog
 # nav: true
 # nav_order: 1
 pagination:
@@ -24,8 +24,8 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <h3 class="text-primary">{{ site.blog_name }}</h3>
+    <h4>{{ site.blog_description }}</h4>
   </div>
   {% endif %}
 

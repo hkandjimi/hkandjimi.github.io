@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      <!-- {{ page.title }} -->
+      Running and Other Fitness Activities
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="card p-3">
+      <div class="two alt-two">
+        <h2>
+          <span>Recent Fitness Activity</span>
+        </h2>
+      </div>
+      <hr class="hr-text" data-content=" - - - ">
+      <ul class="card-text font-weight-light list-group list-group-flush">
+        {% assign running = site.running | sort: 'date' | reverse % %}
+        {% for run in running %}
+          {% if run.location %}
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-6 cl-sm-6 col-md-6" style="width: 75px">
+                  {% if run.date != '' %}
+                    {% assign date = run.date | date: '%s' | minus: 7200 | date: "%Y-%m-%d %H:%M" %}
+                  {% else %}
+                    {% assign date = null %}
+                  {% endif %}
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                    {{ date }}
+                  </span>
+                  <h5 class="location pt-2 fw-bold">
+                    <i class="fas fa-location-dot"></i>
+                    {{ run.location }}
+                  </h5>
+                  <h6>
+                    <i class="fas fa-route"></i>
+                    {{ run.track }}</h6>
+                  <p>
+                    <i class="fas fa-circle-info"></i>
+                    {{ run.description }}</p>
+                  <div class="row">
+                    <div class="col-xs-2 cl-sm-2 col-md-2">
+                      <img src="/assets/img/running-fast.svg" height="26"></div>
+                    <span class="col-xs-8 cl-sm-8 col-md-8">
+                      {{ run.fast }}Minutes/km
+                    </span>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-2 cl-sm-2 col-md-2">
+                      <img src="/assets/img/running-run.svg" height="18"></div>
+                    <span class="col-xs-8 cl-sm-8 col-md-8">
+                      {{ run.slow }} Minutes/km
+                    </span>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-2 cl-sm-2 col-md-2">
+                      <img src="/assets/img/chart-average.svg" height="18"></div>
+                    <span class="col-xs-8 cl-sm-8 col-md-8">
+                      {{ run.avg }} Minutes/km
+                    </span>
+                  </div>
+                </div>
+                <div class="col-xs-6 cl-sm-6 col-md-6 mt-2 mt-md-0">
+                  {{ run.embed }}
+                </div>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <hr class="hr-text" data-content="Running Highlights From Instagram">
+
+      <div class="d-none d-lg-block">
+        <div class='sk-ww-instagram-story-highlights' data-embed-id='25401530'></div>
+      </div>
+      <div class="d-lg-none d-xl-none">
+        <div class='sk-ww-instagram-story-highlights' data-embed-id='25401539'></div>
+      </div>
+      <script
+        src='https://widgets.sociablekit.com/instagram-story-highlights/widget.js'
+        async
+        defer></script>
+    </div>
+  </article>
+</div>

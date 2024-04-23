@@ -2,13 +2,13 @@
 {% include metadata.liquid %}
 
 <!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/lightbox.css">
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
-  rel="stylesheet"
+rel="stylesheet"
   href="{{ site.third_party_libraries.mdb.url.css }}"
   integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
-  crossorigin="anonymous"
->
+  crossorigin="anonymous">
 
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
@@ -17,18 +17,18 @@
     rel="stylesheet"
     href="{{ site.third_party_libraries.bootstrap-table.url.css }}"
     integrity="{{ site.third_party_libraries.bootstrap-table.integrity.css }}"
-    crossorigin="anonymous"
-  >
+    crossorigin="anonymous">
 {% endif %}
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link
   defer
   rel="stylesheet"
+  href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<link defer
+  rel="stylesheet"
   type="text/css"
-  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
->
+  href="{{ site.third_party_libraries.google_fonts.url.fonts }}">
 
 <!-- Code Syntax Highlighting -->
 <link
@@ -36,20 +36,19 @@
   rel="stylesheet"
   href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}"
   media=""
-  id="highlight_theme_light"
->
+  id="highlight_theme_light">
 
 {% if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->
-  <link defer href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet">
+  <link
+    defer
+    href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}"
+    rel="stylesheet">
 {% endif %}
 
 <!-- Styles -->
 {% if site.icon.size <= 4 %}
-  <link
-    rel="shortcut icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>"
-  >
+  <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
 {% elsif site.icon != blank %}
   <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
 {% endif %}
@@ -64,8 +63,7 @@
     rel="stylesheet"
     href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url | bust_file_cache }}"
     media="none"
-    id="highlight_theme_dark"
-  >
+    id="highlight_theme_dark">
   <script>
     initTheme();
   </script>
@@ -78,8 +76,7 @@
     rel="stylesheet"
     href="{{ site.third_party_libraries.leaflet.url.css }}"
     integrity="{{ site.third_party_libraries.leaflet.integrity.css }}"
-    crossorigin="anonymous"
-  >
+    crossorigin="anonymous">
 {% endif %}
 
 <!-- diff2html -->
@@ -90,23 +87,20 @@
     href="{{ site.third_party_libraries.highlightjs.url.css.light }}"
     integrity="{{ site.third_party_libraries.highlightjs.integrity.css.light }}"
     crossorigin="anonymous"
-    media="screen and (prefers-color-scheme: light)"
-  >
+    media="screen and (prefers-color-scheme: light)">
   <link
     defer
     rel="stylesheet"
     href="{{ site.third_party_libraries.highlightjs.url.css.dark }}"
     integrity="{{ site.third_party_libraries.highlightjs.integrity.css.dark }}"
     crossorigin="anonymous"
-    media="screen and (prefers-color-scheme: dark)"
-  >
+    media="screen and (prefers-color-scheme: dark)">
   <link
     defer
     rel="stylesheet"
     href="{{ site.third_party_libraries.diff2html.url.css }}"
     integrity="{{ site.third_party_libraries.diff2html.integrity.css }}"
-    crossorigin="anonymous"
-  >
+    crossorigin="anonymous">
 {% endif %}
 
 {% if page.images %}
@@ -115,8 +109,7 @@
     <link
       defer
       rel="stylesheet"
-      href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
-    >
+      href="{{ site.third_party_libraries.img-comparison-slider.url.css }}">
   {% endif %}
   <!-- Image slider -->
   {% if page.images.slider %}
@@ -125,11 +118,14 @@
       rel="stylesheet"
       href="{{ site.third_party_libraries.swiper.url.css }}"
       integrity="{{ site.third_party_libraries.swiper.integrity.css }}"
-      crossorigin="anonymous"
-    >
+      crossorigin="anonymous">
   {% endif %}
 {% endif %}
 
 {% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+  <link
+    defer
+    rel="stylesheet"
+    type="text/css"
+    href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
