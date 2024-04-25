@@ -15,6 +15,15 @@ pagination:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
+{% assign all_tags = "" %}
+{% for post in site.posts %}
+  {% assign tags = post.tags | split:' '%}
+    {% for post in tags %}
+      {% assign all_tags = all_tags | append: post | append: "," | remove:"[" | remove:"]" | replace: ",,","," | remove: '"' %}
+    {% endfor %}
+{% endfor %}
+{% assign all_tags =  all_tags | split:',' | uniq | join: ", " %}
+{% assign all_tags =  all_tags | split:',' %}
 
 <div class="post">
 
@@ -32,8 +41,9 @@ pagination:
 {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
+  <hr class="hr-text text-dark" data-content=" FILTER BLOGS BY POPULAR HASHTAGS ">
     <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
+      {% for tag in all_tags %}
         <li>
           <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
         </li>
@@ -56,7 +66,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "featured", "false" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -125,7 +135,7 @@ pagination:
 {% if post.thumbnail %}
 
 <div class="row">
-          <div class="col-sm-9">
+          <div class="col-sm-8">
 {% endif %}
         <h3>
         {% if post.redirect == blank %}
@@ -172,8 +182,8 @@ pagination:
 
 </div>
 
-  <div class="col-sm-3">
-    <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+  <div class="col-sm-4">
+    <img class="img-fluid rounded z-depth-1" src="{{post.thumbnail | relative_url}}"  alt="image">
   </div>
 </div>
 {% endif %}

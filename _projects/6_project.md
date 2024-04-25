@@ -2,15 +2,16 @@
 layout: page
 title: Ford Ranger T7 to Raptor 
 subtitle: Ranger T7
-description: An attempt to transform a Ford Ranger T7 XLS to a complete Raptor look. Started off well but turned out to be a nightmare of a project, car was not mechanicaly stable - eventually the engine seized.
+description: An attempt to transform a Ford Ranger T7 XLS to a complete Raptor look. Started well but turned out to be a nightmare of a project, the car was not mechanically stable - eventually, the engine seized.
 img: assets/img/projects/rangert7.png
 importance: 3
 category: Previous
+permalink: /projects/6_project/
 ---
 
-Following the T6 Success, I bought a T7 XLS double cab due to it's height aaand sort of the perfomance with an aim to replicate the full Raptor look. However, my plan was to save on buying the car and spend on cutomization -WORST MISTAKE EVER!!. Bought the car second hand of a dealer and they were not up front with the car issues. After getting it only noticeable  issues was the AC, so got this sorted and did my first cosmetics uprade - windshields, light covers and even threw in LED taillights,nextgen style.
+Following the T6 Success, I bought a T7 XLS double cab due to its height and sort of performance with an aim to replicate the full Raptor look. However, my plan was to save on buying the car and spend on customization -WORST MISTAKE EVER!!. Bought the car second-hand from a dealer and they were not upfront with the car's issues. After getting it only noticeable issue was the AC, so got this sorted and did my first cosmetics upgrade - windshields, light covers and even threw in LED taillights, nextgen style.
 
-But boy, was I in for a ride, the vehicle started having issues first with the brakes, then clutch and eventually the engine gave in and warranty was only offering 35% cover. Well in the time I had it there was fun and below are some mods I did.
+But boy, was I in for a ride, the vehicle started having issues first with the brakes, then the clutch and eventually the engine gave in and the warranty was only offering 35% cover. Well in the time I had it there was fun and below are some mods I did.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">

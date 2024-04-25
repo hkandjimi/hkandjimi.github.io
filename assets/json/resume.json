@@ -193,7 +193,7 @@
       "institution": "Namibia University of Science and Technology",
       "supervision":true,
       "location": "Windhoek, Namibia",
-      "url": "https://fci.nust.na/bachelor-computer-science-honours-software-development",
+      "url": "",
       "area": "Computer Science, Software Development, HCI ",
       "studyType": "Designing A Supervisory Real-Time Tracking System For Namibian Children",
       "student":"Agostinho Tenente Da Silva",
@@ -217,7 +217,7 @@
       "endDate": "",
       "score": "7",
       "courses": [
-        "**In the rapidly evolving field of computer science education, the provision of effective feedback is crucial for student learning. This literature review delves into the realm of automated hint generation, a promising approach that could revolutionize the way feedback is provided in programming education. The paper explores various methods and frameworks, with a particular emphasis on automated directive feedback via hint generation, finding ITAP [25] as the most effective hint generation technique surveyed. The review also examines the capabilities of generative AI models in generating hints and their potential to enhance the hint-generation process. The effectiveness of directive feedback is evaluated, highlighting its benefits in providing students with a clear path towards a correct solution, but also its potential drawbacks in hindering student learning when overused. This review provides valuable insights into the current state of automated hint generation and offers directions for future research.",
+        "In the rapidly evolving field of computer science education, the provision of effective feedback is crucial for student learning. This literature review delves into the realm of automated hint generation, a promising approach that could revolutionize the way feedback is provided in programming education. The paper explores various methods and frameworks, with a particular emphasis on automated directive feedback via hint generation, finding ITAP [25] as the most effective hint generation technique surveyed. The review also examines the capabilities of generative AI models in generating hints and their potential to enhance the hint-generation process. The effectiveness of directive feedback is evaluated, highlighting its benefits in providing students with a clear path towards a correct solution, but also its potential drawbacks in hindering student learning when overused. This review provides valuable insights into the current state of automated hint generation and offers directions for future research.",
         "Personalized Feedback/Guidance, Programming Education, Similarity Detection"
       ]
     },
@@ -225,7 +225,7 @@
       "institution": "University of Cape Town",
       "supervision":true,
       "location": "Cape Town, ZA",
-      "url": "https://fci.nust.na/bachelor-computer-science-honours-software-development",
+      "url": "",
       "area": "Programming Languages,Data Structures & Algorithms, Document management & text processing ",
       "studyType": "AST-Hints P1 - Abstract Syntax Tree Generation and Clustering from Collected Source Code",
       "student":"Chris McHardy",

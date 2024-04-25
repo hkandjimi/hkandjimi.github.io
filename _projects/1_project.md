@@ -2,10 +2,11 @@
 layout: page
 title: Golf 6TSI to 6R Upgrade 
 subtitle: MK6 Upgrade
-description: Transforming an ordinary Golf 6 TSI into 6R with bodykits and accesories on the budget. Main focus is on cosmetics first and do perfomance later.
+description: Transforming an ordinary Golf 6 TSI into 6R with body kits and accessories on the budget. The main focus is on cosmetics first and performance later.
 img: assets/img//projects/golf.jpg
 importance: 1
 category: Current
+permalink: /projects/1_project/
 related_publications: false
 gallery-word: Golf 6 Pictures
 image-urls:
@@ -15,7 +16,7 @@ image-urls:
   "04": {url: golf6roof.png, desc: "6R with roof top"}
 ---
 
-I would like to transform my MK6 TSI into a Golf 6R fused with a 7.5R look, by putting on 6R bodykit and installing 7.5R lights plus enterior. I recently got the vehicle, so will be crossing off mechanical issues before I do the actual cosmetics mods. Below are some of the ideas I have in mind.
+I would like to transform my MK6 TSI into a Golf 6R fused with a 7.5R look, by putting on a 6R body kit and installing 7.5R lights plus interior. I recently got the vehicle, so will be crossing off mechanical issues before I do the actual cosmetics mods. Below are some of the ideas I have in mind.
 
 
 <div class="row">

@@ -6,9 +6,10 @@ description: A complete rebuild of my childhood vehicle, a Toyota Hilux Y series
 img: assets/img/projects/yellow.jpeg
 importance: 2
 category: Current
+permalink: /projects/2_project/
 ---
 
-The car is currently sitting on rocks ,but had no mechanical problems according to the old man. will to do a close inspection and diagnose potential faults . . this thing doesn't have a computer box :man_facepalming:
+The car is currently sitting on rocks but had no mechanical problems according to the old man. will do a close inspection and diagnose potential faults . . this thing doesn't have a computer box :man_facepalming:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,7 +31,7 @@ The car is currently sitting on rocks ,but had no mechanical problems according 
     </div>
 </div>
 <div class="caption">
-    This is the picture that will motivate the whole build up.
+    This is the picture that will motivate the whole build-up.
 </div>
 
 <!-- You can also put regular text between your rows of images.

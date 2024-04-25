@@ -2,13 +2,14 @@
 layout: page
 title: Golf 5FSI to GTI Upgrade 
 subtitle: MK5 Upgrade
-description: Transforming an ordinary Golf 5 FSI into GTI with bodykits and accesories on the budget. Main focus was on cosmetics and Audiovisuals, no performance work.
+description: Transforming an ordinary Golf 5 FSI into GTI with body kits and accessories on the budget. The main focus was on cosmetics and Audiovisuals, with no performance work.
 img: assets/img/projects/golf5.jpeg
 importance: 3
 category: Previous
+permalink: /projects/4_project/
 ---
 
-This was my first car project, I got it and was just experimenting and some how I thought it may end up like a GTI if the right kit was applied. I wasn't fully interested and invested in this car so I only ended up with a few mods.
+This was my first car project, I got it and was just experimenting and somehow I thought it might end up like a GTI if the right kit was applied. I wasn't fully interested and invested in this car so I only ended up with a few mods.
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">

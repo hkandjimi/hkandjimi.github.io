@@ -2,7 +2,7 @@
 layout: teaching
 permalink: /teaching/
 title: teaching
-description: This page list and briefly describes courses I have taught over the years. Will possibly share course material for freely accessible ones.
+description: This page lists and briefly describes courses I have taught over the years. Will possibly share course material for freely accessible ones.
 nav: true
 nav_order: 3
 ---
