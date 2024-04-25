@@ -13,7 +13,7 @@ images:
 Saturday drive trying to kill time and see places around Cape Town, was interested in the Chapman's Peak drive so decided to mimic the 2 oceans marathon path. Very scenic drive and full of parking spots on the sides for photos but unfortunate for me I didn't do much of that.
 
 <div class="col-12 mt-12 mt-md-0">
-        {% include video.liquid path="assets/video/Chapman's.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/chapmans.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 </div>
 
 
