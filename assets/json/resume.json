@@ -1,12 +1,13 @@
 {
   "basics": {
     "name": "Herman Kandjimi",
-    "label": "Computer Scientist",
-    "image": "",
+    "Status": "PhD Student | Department of Computer Science - Universty of Cape Town",
+    "image": "https://inceit.nust.na/sites/default/files/styles/height/public/team/herman-kandjimi.jpg?itok=KqttiYSc",
     "email": "hermand180@gmail.com",
-    "phone": "+264 81 406 0167",
+    "phone(nam)": "+264 81 406 0167",
+    "phone(za)": "+27 72 696 7323",
     "url": "https://hkandjimi-max.github.io",
-    "summary": "An African-born computer scientist, with a great passion for education, business and digital solutions",
+    "summary": "A diligent scholar who is always seeking opportunities to further his knowledge and enhance his professional competitiveness.",
     "location": {
       "address": "Erf 2246, Stockholm St",
       "postalCode": "WHK 9000",
@@ -186,7 +187,6 @@
       "endDate": "2009-12-01",
       "score": "7",
       "courses": [
-        "Mini-Thesis: iMuseum: A Location-Aware Interactive Guide For Smart Phones Users In Namibian Museums"
       ]
     },
     {
@@ -281,7 +281,7 @@
       "date": "2023-02-01",
       "awarder": "HPI Research School at UCT",
       "url": "https://sit.uct.ac.za/hpi-research-school",
-      "summary": "The Hasso-Plattner Institute (HPI) Research School at the University of Cape Town, affiliated with the School of Information Technology at the University of Cape Town, annually grants PhD and Postdoctoral fellowships to qualifying students from the African continent in the fields of Computer Science (CS) and Information Systems (IS). We seek high-quality applications centred on ideas that revolve around proposing and evaluating solutions to problems of computer science and information systems that emerge in the African context."
+      "summary": "The Hasso-Plattner Institute (HPI) Research School at the University of Cape Town, affiliated with the School of Information Technology at the University of Cape Town, annually grants PhD and Postdoctoral fellowships to qualifying students from the African continent in the fields of Computer Science (CS) and Information Systems (IS). The programme seeks high-quality applications centred on ideas that revolve around proposing and evaluating solutions to problems of computer science and information systems that emerge in the African context."
     },
     {
       "title": "Young Leaders Programme in Vocational Training Education",
