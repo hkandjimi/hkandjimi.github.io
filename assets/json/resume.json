@@ -345,6 +345,11 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Oshiwambo",
+      "fluency": "Intermediate",
+      "icon": ""
     }
   ],
   "volunteer": [
@@ -423,6 +428,14 @@
     }
   ],
   "references": [
+    {
+      "name": "Prof. Hussein Suleman",
+      "icon": "fa-solid fa-user-graduate",
+      "title": "Dean - Faculty of Science",
+      "Telephone": "+(27) 21 650 5106",
+      "E-Mail": "hussein.suleman@uct.ac.za",
+      "Institution": "University of Cape Town"
+    },
     {
       "name": "Dr. Colin Stanley",
       "icon": "fa-solid fa-user-tie",
