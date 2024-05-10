@@ -1,33 +1,23 @@
 <!-- ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Nelson Mandela University, Gqeberha,ZA - Presenting a paper at the SAICSIT 2024 conference
+date: 2024-07-15 08:00:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Nelson Mandela University, Gqeberha,ZA - Presenting a paper at the SAICSIT 2024 conference 
 
 ---
+Friday-10 May,2024: Received the good news on the submitted paper to <a href="https://saicsit2024.mandela.ac.za/"> SAICSIT 2024 </a>  "Congratulations!  After a careful review process by the reviewers in our Program Committee, your paper has been ACCEPTED for publication in the  SAICSIT CCIS Springer proceedings." :relieved: what a a relieve, the paper got 2 accepts and a weak accepts.
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Will be working on the comments from the reviewers and suggested corrections. Most review comments are so insightful but some are quite brutal :grin:. However, this comes with the territory I believe.
 
-#### Hipster list
-
+#### Key Dates for The Conference
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>17 May 2024 - Submission of camera ready paper</li>
+    <li>27 May 2024 - Registration deadline</li>
+    <li>15 - 17 July 2024 : Conference to be held at The Boardwalk Casino and Entertainment World in Gqeberha :metal: </li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual. -->
+--- -->
