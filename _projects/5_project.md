@@ -20,7 +20,7 @@ Following my limited budget, I bought my vehicle base or even lower than the bas
         {% include figure.liquid path="assets/img/projects/rangert62.jpg" title="Skeleton" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption pic">
    Frame 1 is how I got the car from <a href="https://facebook.com/https://www.facebook.com/NovelFordWindhoek1?mibextid=LQQJ4d" title="Facebook">Novel Ford Windoek</a>, "Showroom condition " they said, following my pocket. Well, frame 2 was the first modification I did which was just branding it with my name and upgrading to 16" Mag rims, then took a long desert trip from Windhoek through the Naukluft park to Swakop then down the Skeleton Coast, somehow ended up in my home town - Rundu.
 </div>
 
@@ -39,9 +39,9 @@ Next was rebranding the car back to a Ranger and upgrading the rims as well as w
     </div>
 </div>
 
-<div class="caption">
+<!-- <div class="caption pic">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+</div> -->
 After this, I took out the car for some mud fun and a bit of off-road play, collected a cow and had braai afterward..probably on a different day though.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -71,7 +71,7 @@ Due to all the rough driving with the bakkie with wide wheels, most of my center
         {% include figure.liquid loading="eager" path="assets/img/projects/rangert72.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption pic">
     The final product fitted on the rims - should have had the rims resprayed too.
 </div>
 Finally, I got the car resprayed and put on much better raptor decals - then sold it, I was done with this project and there seemed to be no more ideas. Items not included in the list above are the upgrade on the radio to an Android Infotainment Unit, Reverse Camera, Dynamic Turn signals on mirrors and LED lights for both the front and back. Below is a final look at the vehicle.

@@ -22,6 +22,6 @@ permalink: /projects/3_project/
         {% include figure.liquid loading="eager" path="assets/img/projects/kawasaki.avif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
+<div class="caption pic">
     These are pictures straight from the internet and I do not hold any copyright over their use.
 </div>

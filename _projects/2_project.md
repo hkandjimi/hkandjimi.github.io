@@ -22,7 +22,7 @@ The car is currently sitting on rocks but had no mechanical problems according t
         {% include figure.liquid loading="eager" path="assets/img/projects/yellow3.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption pic">
     Snapshots of the car's current condition.
 </div>
 <div class="row">
@@ -30,7 +30,7 @@ The car is currently sitting on rocks but had no mechanical problems according t
         {% include figure.liquid loading="eager" path="assets/img/projects/bumblebee.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption pic">
     This is the picture that will motivate the whole build-up.
 </div>
 
