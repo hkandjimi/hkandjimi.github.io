@@ -4,6 +4,8 @@ title: Nelson Mandela University, Gqeberha - Presenting a paper at the SAICSIT 2
 date: 2024-05-10 06:11:00-0400
 inline: false
 related_posts: false
+tags: SAICSIT
+categories: conference
 ---
 
 
