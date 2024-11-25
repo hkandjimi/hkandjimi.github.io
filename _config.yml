@@ -51,7 +51,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 95% #orignal was 800px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -566,6 +566,10 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
   - data: teaching
     json: assets/json/teaching.json # it can also be an url 
+  - data: sections
+    json: assets/json/sections.json # it can also be an url 
+  - data: llm_data
+    json: assets/json/llm_data.json # it can also be an url 
 jsonresume:
   - basics
   - work
@@ -583,4 +587,7 @@ jsonteaching:
   - education
   - awards
   - certificates
+jsonsections:
+  - title
+  - questions
 

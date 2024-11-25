@@ -10,3 +10,7 @@ Gemfile.lock
 assets/libs/
 node_modules/
 vendor
+.firebaserc
+assets/json/sections.json
+firebase.json
+functions/
