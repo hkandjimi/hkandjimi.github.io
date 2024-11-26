@@ -7,10 +7,10 @@ admin.initializeApp({
 });
 
 const db = admin.firestore();
-// const cors = require("cors")({origin: false});
-const cors = require("cors")({
-  origin: ["http://localhost:4000/", "https://hkandjimi.github.io/"],
-});
+const cors = require("cors")({origin: false});
+// const cors = require("cors")({
+//   origin: ["http://localhost:4000/", "https://hkandjimi.github.io/"],
+// });
 
 exports.submitSurveyResponse = functions.https.onRequest((req, res) => {
   cors(req, res, async () => {
