@@ -59,38 +59,11 @@ title: Hint Evaluation Survey
 
 <div class="card">
   <h2 class="center">Hint Evaluation Survey</h2>
+
   <div id="personal-container">
-    <table>  
-        <tr>
-          <th colspan="9">First, tell us a little bit about yourself. </th>
-        </tr>
-        <tr>
-          <td colspan="3"><label for="personalform">Highest Degree Attained/Enrolled :  </label>
-            <select name="degree" id="degree" form="personalform">
-              <option value="Bachelor's">Bachelor's</option>
-              <option value="Honours">Honours</option>
-              <option value="Master's">Master's</option>
-              <option value="Doctorate">Doctorate</option>
-            </select>
-          </td>
-          <td colspan="3"><label for="personalform">Teaching/Tutoring Experience(yrs) :  </label>
-            <select name="experience" id="experience" form="personalform">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="3+">3+</option>
-            </select>
-          </td>
-          <td colspan="3"><label for="personalform">Teaching Role :  </label>
-            <select name="role" id="role" form="personalform">
-              <option value="Tutor/TA">Tutor/TA</option>
-              <option value="Assistant Lecturer">Assistant Lecturer</option>
-              <option value="Lecturer">Lecturer</option>
-            </select>
-          </td>
-        </tr>
-      </table>
+    <!-- Personal information Will Be Rendered Here -->
   </div>
+
   <h5>INSTRUCTIONS: <i>Review the Student Code, Goal Code, and Edit Script displayed at the top of the survey. Carefully read the generated hints under each level and evaluate their relevance, clarity, and applicability to the task. </i> </h5>
       <table>  
         <tr>
@@ -1754,8 +1727,41 @@ title: Hint Evaluation Survey
 
     const dataContainer = document.getElementById("data-container");
     const surveyContainer = document.getElementById("survey-container");
+    const personalContainer = document.getElementById("personal-container");
  
     // Render data
+    personalContainer.innerHTML = `
+    <table>  
+        <tr>
+          <th colspan="9">First, tell us a little bit about yourself. </th>
+        </tr>
+        <tr>
+          <td colspan="3"><label for="personalform">Highest Degree Attained/Enrolled :  </label>
+            <select name="degree" id="degree" form="personalform">
+              <option value="Bachelor's">Bachelor's</option>
+              <option value="Honours">Honours</option>
+              <option value="Master's">Master's</option>
+              <option value="Doctorate">Doctorate</option>
+            </select>
+          </td>
+          <td colspan="3"><label for="personalform">Teaching/Tutoring Experience(yrs) :  </label>
+            <select name="experience" id="experience" form="personalform">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="3+">3+</option>
+            </select>
+          </td>
+          <td colspan="3"><label for="personalform">Teaching Role :  </label>
+            <select name="role" id="role" form="personalform">
+              <option value="Tutor/TA">Tutor/TA</option>
+              <option value="Assistant Lecturer">Assistant Lecturer</option>
+              <option value="Lecturer">Lecturer</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    `;
     dataContainer.innerHTML = `
       <table style="table-layout:fixed;">
         <tr>
@@ -1930,7 +1936,7 @@ title: Hint Evaluation Survey
     })
       .then(response => {
         console.log(response)
-        alert("Response submitted successfully!");
+        alert("Your evaluation and comments have been submitted successfully!");
         renderSet();
       })
       .catch(error => {
