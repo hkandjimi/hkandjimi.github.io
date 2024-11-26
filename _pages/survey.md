@@ -11,7 +11,7 @@ title: Hint Evaluation Survey
   <script src="https://cdn.jsdelivr.net/npm/material-design-lite/material.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
-
+  
   <style>
     body {
       font-family: "Roboto", "Arial", sans-serif;
@@ -60,7 +60,36 @@ title: Hint Evaluation Survey
 <div class="card">
   <h2 class="center">Hint Evaluation Survey</h2>
   <div id="personal-container">
-
+    <table>  
+        <tr>
+          <th colspan="9">First, tell us a little bit about yourself. </th>
+        </tr>
+        <tr>
+          <td colspan="3"><label for="personalform">Highest Degree Attained/Enrolled :  </label>
+            <select name="degree" id="degree" form="personalform">
+              <option value="Bachelor's">Bachelor's</option>
+              <option value="Honours">Honours</option>
+              <option value="Master's">Master's</option>
+              <option value="Doctorate">Doctorate</option>
+            </select>
+          </td>
+          <td colspan="3"><label for="personalform">Teaching/Tutoring Experience(yrs) :  </label>
+            <select name="experience" id="experience" form="personalform">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="3+">3+</option>
+            </select>
+          </td>
+          <td colspan="3"><label for="personalform">Teaching Role :  </label>
+            <select name="role" id="role" form="personalform">
+              <option value="Tutor/TA">Tutor/TA</option>
+              <option value="Assistant Lecturer">Assistant Lecturer</option>
+              <option value="Lecturer">Lecturer</option>
+            </select>
+          </td>
+        </tr>
+      </table>
   </div>
   <h5>INSTRUCTIONS: <i>Review the Student Code, Goal Code, and Edit Script displayed at the top of the survey. Carefully read the generated hints under each level and evaluate their relevance, clarity, and applicability to the task. </i> </h5>
       <table>  
@@ -89,7 +118,6 @@ title: Hint Evaluation Survey
 </div>
 
 <script>
-  
   var dataSection = '{{site.data.sections}}'
   let validJsonString = dataSection.replace(/"=>/g, '":').replace(/,"/g, ',"').replace(/}/g, '},');
   validJsonString = `[${validJsonString.slice(0, -1)}]`; // Remove the last extra comma and wrap in brackets
@@ -1699,7 +1727,7 @@ title: Hint Evaluation Survey
       "L3": "Level 3 (Precise and Targeted Guidance):\n1. **Modify the Condition**:\n   - Change the condition `0 <= var3 < 9` to `0 <= var3 <= 9`.\n   - This adjustment ensures that numbers from 0 to 9 are correctly formatted with a leading space when necessary.\n\n2. **Test the Change**:\n   - After making the change, test your program with various values of `n` to ensure that the output is correctly formatted for all numbers within the specified range"
     }
   }
-]
+];
  
 
   const surveyResponses = []; // Store survey responses here
@@ -1724,61 +1752,25 @@ title: Hint Evaluation Survey
     currentIndex = randomIndex;
     const currentSet = data[randomIndex];
 
-    const personalContainer = document.getElementById("personal-container");
     const dataContainer = document.getElementById("data-container");
     const surveyContainer = document.getElementById("survey-container");
-
-    personalContainer.innerHTML = `
-      <table>  
-        <tr>
-          <th colspan="9">First, tell us a little bit about yourself. </th>
-        </tr>
-        <tr>
-          <td colspan="3"><label for="personalform">Highest Degree Attained/Enrolled :  </label>
-            <select name="degree" id="degree" form="personalform">
-              <option value="Bachelor's">Bachelor's</option>
-              <option value="Honours">Honours</option>
-              <option value="Master's">Master's</option>
-              <option value="Doctorate">Doctorate</option>
-            </select>
-          </td>
-          <td colspan="3"><label for="personalform">Teaching/Tutoring Experience(yrs) :  </label>
-            <select name="experience" id="experience" form="personalform">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="3+">3+</option>
-            </select>
-          </td>
-          <td colspan="3"><label for="personalform">Teaching Role :  </label>
-            <select name="role" id="role" form="personalform">
-              <option value="Tutor/TA">Tutor/TA</option>
-              <option value="Assistant Lecturer">Assistant Lecturer</option>
-              <option value="Lecturer">Lecturer</option>
-            </select>
-          </td>
-        </tr>
-      </table>
-    `;
+ 
     // Render data
     dataContainer.innerHTML = `
-      <table style="table-layout: fixed">
+      <table style="table-layout:fixed;">
         <tr>
           <th colspan="3">Student Code</th>
           <th colspan="3">Goal Code</th>
         </tr>
         <tr>
-          <td colspan="3">
-            <pre><code class="language-python">${escapeHtml(currentSet.student_code)}</code></pre>
-          </td>
-          <td colspan="3">
-          <pre><code class="language-python">${escapeHtml(currentSet.goal_code)}</code></pre></td>
+            <td colspan="3"><pre><code class="language-python">${escapeHtml(currentSet.student_code)}</td>
+            <td colspan="3"><pre><code class="language-python">${escapeHtml(currentSet.goal_code)}</td>
         </tr>
         <tr>
           <th colspan="6">Edit Script</th>
         </tr>
         <tr>
-          <td colspan="6" class="word-wrap"><pre><code class="language-json">${JSON.stringify(currentSet.edit_script)}</code></pre></td>
+          <td colspan="6"><pre><code class="language-json">${JSON.stringify(currentSet.edit_script)}</td>
         </tr>
         <tr>
           <th colspan="2">Hints Level 1 (Socratic Inquiry-Based)</th>
@@ -1865,7 +1857,7 @@ title: Hint Evaluation Survey
       </table>
     `;
     surveyContainer.innerHTML = surveyHTML;
-    };
+  }
 
   function pushCurrent(){
     const responses = { 
