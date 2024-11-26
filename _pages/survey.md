@@ -11,6 +11,7 @@ title: Hint Evaluation Survey
   <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <style>
     body {
@@ -89,11 +90,12 @@ title: Hint Evaluation Survey
 </div>
 
 <script>
-   var dataSection = '{{site.data.sections}}'
+  $(document).ready(function() {
+  var dataSection = '{{site.data.sections}}'
   let validJsonString = dataSection.replace(/"=>/g, '":').replace(/,"/g, ',"').replace(/}/g, '},');
   validJsonString = `[${validJsonString.slice(0, -1)}]`; // Remove the last extra comma and wrap in brackets
   const sections = JSON.parse(validJsonString);
-  
+
   const data = [
   {
     "student_code": "print()",
@@ -1732,7 +1734,7 @@ title: Hint Evaluation Survey
           <th colspan="9">First, tell us a little bit about yourself. </th>
         </tr>
         <tr>
-          <td colspan="3"><label for="cars">Highest Degree Attained/Enrolled :  </label>
+          <td colspan="3"><label for="personalform">Highest Degree Attained/Enrolled :  </label>
             <select name="degree" id="degree" form="personalform">
               <option value="Bachelor's">Bachelor's</option>
               <option value="Honours">Honours</option>
@@ -1740,7 +1742,7 @@ title: Hint Evaluation Survey
               <option value="Doctorate">Doctorate</option>
             </select>
           </td>
-          <td colspan="3"><label for="cars">Teaching/Tutoring Experience(yrs) :  </label>
+          <td colspan="3"><label for="personalform">Teaching/Tutoring Experience(yrs) :  </label>
             <select name="experience" id="experience" form="personalform">
               <option value="1">1</option>
               <option value="2">2</option>
@@ -1748,7 +1750,7 @@ title: Hint Evaluation Survey
               <option value="3+">3+</option>
             </select>
           </td>
-          <td colspan="3"><label for="cars">Teaching Role :  </label>
+          <td colspan="3"><label for="personalform">Teaching Role :  </label>
             <select name="role" id="role" form="personalform">
               <option value="Tutor/TA">Tutor/TA</option>
               <option value="Assistant Lecturer">Assistant Lecturer</option>
@@ -1956,8 +1958,9 @@ title: Hint Evaluation Survey
     renderSet();
   }
 
-  // Initialize first set
-  renderSet();
+  // Initialize first set - ensure document ready
+    renderSet();
+  });
 </script>
 </body>
 
