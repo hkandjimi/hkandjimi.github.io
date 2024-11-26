@@ -1,0 +1,48 @@
+- title: Clarity and Comprehension
+  questions:
+  - The hints are clearly written and easy to understand.
+  - The hints are clearly written and easy to understand.
+  - The hints are clearly written and easy to understand.
+  - The hints use consistent and appropriate terminology for the audience.
+  - The hints use consistent and appropriate terminology for the audience.
+  - The hints use consistent and appropriate terminology for the audience.
+- title: Relevance to the Task
+  questions:
+  - The hints align with the problem and task requirements.
+  - The hints align with the problem and task requirements.
+  - The hints align with the problem and task requirements.
+  - The hints provide actionable guidance for solving the problem.
+  - The hints provide actionable guidance for solving the problem.
+  - The hints provide actionable guidance for solving the problem.
+- title: Depth and Completeness
+  questions:
+  - The hints address all critical conceptual aspects of the task (e.g., input validation,
+    loops, formatting).
+  - The hints address all critical conceptual aspects of the task (e.g., input validation,
+    loops, formatting).
+  - The hints address all critical conceptual aspects of the task (e.g., input validation,
+    loops, formatting).
+  - The hints provide enough information to be useful without overwhelming the user.
+  - The hints provide enough information to be useful without overwhelming the user.
+  - The hints provide enough information to be useful without overwhelming the user.
+- title: Specificity and Examples
+  questions:
+  - The hints are specific and directly applicable to the task(targeted).
+  - The hints are specific and directly applicable to the task(targeted).
+  - The hints are specific and directly applicable to the task(targeted).
+- title: Hallucination and Factual Levels
+  questions:
+  - The hints accurate and void of fabricated or incorrect information.
+  - The hints accurate and void of fabricated or incorrect information.
+  - The hints accurate and void of fabricated or incorrect information.
+  - The hints are directly relevant to the student and goal code.
+  - The hints are directly relevant to the student and goal code.
+  - The hints are directly relevant to the student and goal code.
+- title: Level Specific Evaluation
+  questions:
+  - The questions encourage critical thinking about the task
+  - The hints provide generic yet practical steps to solve the problem
+  - The hints specific and detailed enough for direct implementation
+  - The questions open-ended and avoid leading the user to a specific solution
+  - The suggestions aligned with good programming practices
+  - The hints include accurate syntax and logic for the given task

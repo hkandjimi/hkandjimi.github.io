@@ -14,6 +14,5 @@ functions/src/surveyApi.json
 functions/src/index.ts
 _data/Hints_evaluation_data.yaml
 _data/evaluations.yml
-_data/sections.yml
 assets/json/sections22.json
 
