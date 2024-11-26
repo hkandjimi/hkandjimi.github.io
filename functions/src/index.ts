@@ -48,7 +48,7 @@ function formatResponse(data: any): any {
     // Flatten responses from all question arrays
     const responses: number[] = questions
         .flatMap((questionSet: string) => JSON.parse(questionSet)) // Parse nested question sets
-        .map((q: { response: string | null }) => (q.response ? parseInt(q.response, 10) : null)) // Extract response
+        .map((q: { response: string | 0 }) => (q.response ? parseInt(q.response, 10) : 0)) // Extract response
         .filter((response) => response !== null); // Remove null responses
 
     // Add processed responses to the formattedSections map
@@ -60,5 +60,6 @@ function formatResponse(data: any): any {
     index: JSON.parse(data).index,
     generalFeedback: JSON.parse(data).generalFeedback,
     sections: formattedSections,
+    personalInfo: JSON.parse(data).personalInfo,
   };
 }
