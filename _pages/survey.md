@@ -324,9 +324,13 @@ title: Hint Evaluation Survey
     //Submit responses to Firestore API
     fetch("https://us-central1-evaluation-survey-e9fa1.cloudfunctions.net/submitSurveyResponse", {
       method: "POST",
+      mode:"cors",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin":"*"
+        "Access-Control-Allow-Origin":"*",
+        "Accept": "application/json",
+        "Access-Control-Allow-Origin": "http://127.xxx",
+        "Access-Control-Allow-Credentials": "true"
       },
       body: surveyResponses
     })
