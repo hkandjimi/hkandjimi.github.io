@@ -11,7 +11,6 @@ title: Hint Evaluation Survey
   <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <style>
     body {
@@ -90,7 +89,7 @@ title: Hint Evaluation Survey
 </div>
 
 <script>
-  $(document).ready(function() {
+  
   var dataSection = '{{site.data.sections}}'
   let validJsonString = dataSection.replace(/"=>/g, '":').replace(/,"/g, ',"').replace(/}/g, '},');
   validJsonString = `[${validJsonString.slice(0, -1)}]`; // Remove the last extra comma and wrap in brackets
@@ -1713,6 +1712,7 @@ title: Hint Evaluation Survey
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
   }
+
   function formatGuidanceText(guidanceText) {
     const content = guidanceText.replace(/^Level 3 \(Precise and Targeted Guidance\):\n/, "").replace(/^Level 2 \(Generic Conceptual Corrections\):\n/, "").replace(/^Level 1 \(Socratic Inquiry-Based\):\n/, "");
     const formattedContent = content.replace(/\*\*(.*?)\*\*/g, "<b>$1</b>");
@@ -1960,7 +1960,6 @@ title: Hint Evaluation Survey
 
   // Initialize first set - ensure document ready
     renderSet();
-  });
 </script>
 </body>
 
