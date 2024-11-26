@@ -7,8 +7,8 @@ title: Hint Evaluation Survey
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/material-design-lite/material.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/material-design-lite/material.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
 
@@ -1865,7 +1865,7 @@ title: Hint Evaluation Survey
       </table>
     `;
     surveyContainer.innerHTML = surveyHTML;
-  };
+    };
 
   function pushCurrent(){
     const responses = { 
@@ -1932,10 +1932,7 @@ title: Hint Evaluation Survey
       mode:"no-cors",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin":"*",
-        "Accept": "application/json",
-        "Access-Control-Allow-Origin": "http://127.xxx",
-        "Access-Control-Allow-Credentials": "true"
+        "Access-Control-Allow-Origin":"*"
       },
       body: surveyResponses
     })
