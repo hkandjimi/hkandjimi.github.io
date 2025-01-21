@@ -1,8 +1,8 @@
 - title: Clarity and Comprehension
   questions:
-  - The hints are clearly written and easy to understand.
-  - The hints are clearly written and easy to understand.
-  - The hints are clearly written and easy to understand.
+  - The hints are well-written and easy to understand.
+  - The hints are well-written and easy to understand.
+  - The hints are well-written and easy to understand.
   - The hints use consistent and appropriate terminology for the audience.
   - The hints use consistent and appropriate terminology for the audience.
   - The hints use consistent and appropriate terminology for the audience.
@@ -32,9 +32,9 @@
   - The hints are specific and directly applicable to the task(targeted).
 - title: Hallucination and Factual Levels
   questions:
-  - The hints accurate and void of fabricated or incorrect information.
-  - The hints accurate and void of fabricated or incorrect information.
-  - The hints accurate and void of fabricated or incorrect information.
+  - The hints are accurate and void of fabricated or incorrect information.
+  - The hints are accurate and void of fabricated or incorrect information.
+  - The hints are accurate and void of fabricated or incorrect information.
   - The hints are directly relevant to the student and goal code.
   - The hints are directly relevant to the student and goal code.
   - The hints are directly relevant to the student and goal code.
@@ -42,7 +42,7 @@
   questions:
   - The questions encourage critical thinking about the task
   - The hints provide generic yet practical steps to solve the problem
-  - The hints specific and detailed enough for direct implementation
-  - The questions open-ended and avoid leading the user to a specific solution
+  - The hints are specific and detailed enough for direct implementation
+  - The questions are open-ended and avoid leading the user to a specific solution
   - The suggestions aligned with good programming practices
   - The hints include accurate syntax and logic for the given task
