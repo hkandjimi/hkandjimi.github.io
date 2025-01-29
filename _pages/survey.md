@@ -119,15 +119,18 @@ title: Survey
         </tr>
       </table>
   </div>
-  <div id="data-container">
-    <!-- Evaluation Set Will Be Rendered Here -->
-  </div>
-  <div id="survey-container">
-    <!-- Evaluation Survey Will Be Rendered Here -->
-  </div>
-  <div class="btn center" id="buttons-container">
+  <form id="surveyForm">
+    <div id="data-container">
+      <!-- Evaluation Set Will Be Rendered Here -->
+    </div>
+    <div id="survey-container">
+      <!-- Evaluation Survey Will Be Rendered Here -->
+    </div>
+  </form>
+  <div style="text-align:center" id="buttons-container">
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="nextSet()">Evaluate Next Set</button>
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="submitSurvey()">Submit Response</button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button" onclick="resetForm()">Clear Form</button>
   </div>
   </div>
 </div>
@@ -582,7 +585,7 @@ title: Survey
 ];
  
 
-  const surveyResponses = []; // Store survey responses here
+  var surveyResponses = []; // Store survey responses here
   let currentIndex = null; // Current data index
   function escapeHtml(unsafe) {
     return unsafe
@@ -608,6 +611,20 @@ title: Survey
     }else{
       document.getElementById('degree_label').innerHTML = "Level of Highest Degree Attained"
     }
+  }
+  function resetForm(){
+    
+    document.getElementById('surveyForm').reset();
+    const allRadio = document.querySelectorAll('[type="radio"]');
+    for( i = 0; i < allRadio.length; i++ ) {
+        if( allRadio[i].checked ) {
+            allRadio[i].checked = false;
+        }
+    }
+    document.querySelector("textarea[name='preferred_feedback']").value = '';
+    document.querySelector("textarea[name='improvement_feedback']").value  = '';
+    document.querySelector("textarea[name='general_comments']").value = '';
+    surveyResponses = [];
   }
   // Render a random set from the JSON data
   function renderSet() {
@@ -810,7 +827,7 @@ title: Survey
     }
   }
   function pushCurrent(){
-    const responses = { 
+    var responses = { 
       index: currentIndex,
       sections:[],
       generalFeedback:{},
@@ -840,7 +857,7 @@ title: Survey
         
         sectionResponses.questions.push(JSON.stringify(questionGroup));
       }
-      console.log(sectionResponses)
+      // console.log(sectionResponses)
       responses.sections.push(sectionResponses);
     });
     
@@ -857,14 +874,16 @@ title: Survey
     responses.personalInfo.degree = degree;
     responses.personalInfo.teaching = experience;
     responses.personalInfo.tutoring = role;
-    console.log(lname)
     
     // Add general feedback
-    const preferred_level = document.querySelector("input[name='preferred_level']").value;
-    const preferred_feedback = document.querySelector("textarea[name='improvement_feedback']").value;
+    const preferred_level = document.querySelector("input[name='preferred_level']:checked").value;
+    const preferred_feedback = document.querySelector("textarea[name='preferred_feedback']").value;
     const Feedback = document.querySelector("textarea[name='improvement_feedback']").value;
     const Comments = document.querySelector("textarea[name='general_comments']").value;
     
+    //Clear likert values and comments on submit
+    
+
     responses.generalFeedback.preferredLevel = preferred_level;
     responses.generalFeedback.preferredFeedback = preferred_feedback;
     responses.generalFeedback.improvementFeedback = Feedback;
@@ -874,11 +893,13 @@ title: Survey
     // alert("Response submitted! Thank you.");
     //console.log("Survey Responses:", surveyResponses);
   }
+  function sleep (time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
   // Submit survey response
-  function submitSurvey() {
+  async function submitSurvey() {
     //push current evalution responses before sending to firestore
     pushCurrent()
-    //https://us-central1-evaluation-survey-e9fa1.cloudfunctions.net/submitSurveyResponse
     //Submit responses to Firestore API
     fetch("https://us-central1-evaluation-survey-e9fa1.cloudfunctions.net/submitSurveyResponse", {
       method: "POST",
@@ -890,10 +911,8 @@ title: Survey
       body: surveyResponses
     })
       .then(response => {
-        //console.log(response)
         alert("Your evaluation and comments have been submitted successfully!");
-        //renderSet();
-        window.location.replace("https://uct.ac.za/");
+        resetForm();
       })
       .catch(error => {
         console.error("Error submitting response: ", error);
@@ -906,7 +925,26 @@ title: Survey
   function nextSet() {
     //push current evalution responses before loading new set
     pushCurrent()
-    renderSet();
+    //Submit responses to Firestore API
+    fetch("https://us-central1-evaluation-survey-e9fa1.cloudfunctions.net/submitSurveyResponse", {
+      method: "POST",
+      mode:"no-cors",
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin":"*"
+      },
+      body: surveyResponses
+    })
+      .then(response => {
+        console.log(response)
+        resetForm();
+        window.scrollTo(0,0);
+      })
+      .catch(error => {
+        console.error("Error submitting response: ", error);
+        alert("Failed to submit response. Please try again later.");
+      });
+    // renderSet();
   }
 
   // Initialize first set - ensure document ready
