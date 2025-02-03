@@ -53,11 +53,15 @@ title: Survey
     .center {
       text-align: center;
     }
+    
   </style>
 </head>
 <body>
-
-<div class="card">
+<div id="loader" class="center" hidden><img src="../../assets/img/tick_cross.gif" alt="" height="180"/>
+<br/>
+<h4>UPLOADING RESPONSES . . </h4>
+</div>
+<div class="card" id="survey_card">
   <div id="consent-container">
     <h2 class="center"> Informed Voluntary Consent For Human Evaluation Survey</h2>
     <br/>
@@ -111,11 +115,11 @@ title: Survey
           <th colspan="10">Using the Likert Scale </th>
         </tr>
         <tr>
-          <td colspan="2"><strong>1: Strongly Disagree</strong> – The hint is not clear, helpful or relevant.</td>
-          <td colspan="2"><strong>2: Disagree</strong> – The hint has some issues but may still provide minimal guidance.</td>
-          <td colspan="2"><strong>3: Neutral</strong> – The hint is acceptable but not particularly strong or clear.</td>
-          <td colspan="2"><strong>4: Agree</strong> – The hint is clear, helpful, and relevant to the task</td>
-          <td colspan="2"><strong>5: Strongly Agree</strong> – The hint is obvious, precise, and highly effective in guiding the solution.</td>
+          <td colspan="2"><strong>1: Strongly Disagree</strong> </td>
+          <td colspan="2"><strong>2: Disagree</strong> </td>
+          <td colspan="2"><strong>3: Neutral</strong> </td>
+          <td colspan="2"><strong>4: Agree</strong> </td>
+          <td colspan="2"><strong>5: Strongly Agree</strong> </td>
         </tr>
       </table>
   </div>
@@ -819,6 +823,7 @@ title: Survey
     var x = document.getElementById("consent-container");
     if (consent == 1){
       renderSet();
+      window.scrollTo(0,0);
       document.getElementById('consent-container').hidden = true;
       document.getElementById('survey-content').hidden = false;
     } else {
@@ -898,6 +903,9 @@ title: Survey
   }
   // Submit survey response
   async function submitSurvey() {
+    document.querySelector("#loader").hidden = false;
+    document.querySelector("#survey_card").style.visibility = "hidden";
+    window.scrollTo(0,0);
     //push current evalution responses before sending to firestore
     pushCurrent()
     //Submit responses to Firestore API
@@ -913,6 +921,9 @@ title: Survey
       .then(response => {
         alert("Your evaluation and comments have been submitted successfully!");
         resetForm();
+        document.querySelector("#survey_card").style.visibility = "visible";
+        window.location.replace("https://uct.ac.za/");
+        document.querySelector("#loader").hidden = true;
       })
       .catch(error => {
         console.error("Error submitting response: ", error);
@@ -923,6 +934,9 @@ title: Survey
 
   // Load the next set
   function nextSet() {
+    document.querySelector("#loader").hidden = false;
+    document.querySelector("#survey_card").style.visibility = "hidden";
+    window.scrollTo(0,0);
     //push current evalution responses before loading new set
     pushCurrent()
     //Submit responses to Firestore API
@@ -936,8 +950,10 @@ title: Survey
       body: surveyResponses
     })
       .then(response => {
-        console.log(response)
         resetForm();
+        document.querySelector("#survey_card").style.visibility = "visible";
+        document.querySelector("#loader").hidden = true;
+        alert("Your evaluation and comments have been submitted successfully! \nClick Ok to Continue");
         window.scrollTo(0,0);
       })
       .catch(error => {
