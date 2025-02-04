@@ -828,7 +828,7 @@ title: Survey
       document.getElementById('survey-content').hidden = false;
     } else {
       alert("Thank you for your time, Good bye!")
-      window.location.replace("https://uct.ac.za/");
+      window.location.replace("https://www.uct.ac.za/");
     }
   }
   function pushCurrent(){
@@ -922,7 +922,7 @@ title: Survey
         alert("Your evaluation and comments have been submitted successfully!");
         resetForm();
         document.querySelector("#survey_card").style.visibility = "visible";
-        window.location.replace("https://uct.ac.za/");
+        window.location.replace("https://www.uct.ac.za/");
         document.querySelector("#loader").hidden = true;
       })
       .catch(error => {
