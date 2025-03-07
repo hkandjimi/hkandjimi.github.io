@@ -59,6 +59,7 @@ title: Survey
     justify-content: center;
     color: #fff;
     border-radius: 15px;
+    margin-top: -100px;
 }
 
 h1{
@@ -82,6 +83,7 @@ h1{
     font-weight: 100;
 }
 
+
   </style>
 </head>
 <body>
@@ -94,25 +96,9 @@ h1{
     </picture>
     <div class="centered"> 
       <div class="hero">
-        <h1>Winner Selection in</h1>
-        <div class="timebox">
-            <div class="time">
-                <h2 id="days">00</h2>
-                <p>Days</p>
-            </div>
-            <div class="time">
-                <h2 id="hours">00</h2>
-                <p>Hours</p>
-            </div>
-            <div class="time">
-                <h2 id="minutes">00</h2>
-                <p>Minutes</p>
-            </div>
-            <div class="time">
-                <h2 id="seconds">00</h2>
-                <p>Seconds</p>
-            </div>
-        </div>
+        <video autoplay loop muted plays-inline width="720">
+            <source src="/assets/img/winner_spinner.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
