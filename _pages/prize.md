@@ -102,7 +102,7 @@ h1{
       </div>
     </div>
   </div>
-  <script>
+  <!-- <script>
     const Days = document.getElementById('days');
     const Hours = document.getElementById('hours');
     const Minutes = document.getElementById('minutes');
@@ -130,6 +130,7 @@ h1{
         }
     }
     setInterval(timer, 1000);
-  </script>
+  </script> -->
 </body>
+
 
