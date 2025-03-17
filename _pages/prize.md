@@ -86,6 +86,13 @@ h1{
 
   </style> -->
   <style>
+    body {
+      font-family: "Roboto", "Arial", sans-serif;
+      background-image:url('/assets/img/Samsung-Galaxy.jpg');
+      background-size: auto 100%;
+      background-position: center;
+      margin: 20px;
+    }
 .img-container {
     position: relative;
     display: inline-block; /* Adjust as needed */
@@ -128,7 +135,7 @@ h1{
     </picture>
     <div class="video-overlay">
         <video autoplay loop muted playsinline >
-            <source src="/assets/img/winner_spinner.mp4" type="video/mp4">
+            <source src="../assets/img/winner_spinner.mp4" type="video/mp4">
         </video>
     </div>
 </div>
