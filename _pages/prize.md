@@ -12,7 +12,7 @@ title: Survey
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
   
-  <style>
+  <!-- <style>
     body {
       font-family: "Roboto", "Arial", sans-serif;
       background-image:url('/assets/img/Samsung-Galaxy.jpg');
@@ -84,24 +84,54 @@ h1{
 }
 
 
-  </style>
+  </style> -->
+  <style>
+.img-container {
+    position: relative;
+    display: inline-block; /* Adjust as needed */
+    left: 50%;
+    /* top:+50%; */
+    transform: translate(-50%, +0%);
+}
+
+.img-container img {
+    display: block;
+    width: 100%; /* Ensure the image is responsive */
+    height: auto;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-overlay video {
+    width: 100%; /* Adjust video size to fit within the frame */
+    max-width: 720px; /* Match the video width to the image frame */
+    margin-top: -100px;
+    height: auto;
+}
+</style>
 </head>
 <body>
 <div class="img-container">
-    <!-- <img src="/assets/img/galaxy_tab_a99.png" class="img-fluid" alt="Responsive image"> -->
     <picture>
         <source media="(min-width: 961px)" srcset="/assets/img/galaxy_tab_a99.png">
         <source media="(min-width: 480px)" srcset="/assets/img/galaxy_tab_a9.png">
-        <img src="/img/mobile-size.png"/>
+        <img src="/img/mobile-size.png" class="img-fluid" alt="Responsive image"/>
     </picture>
-    <div class="centered"> 
-      <div class="hero">
-        <video autoplay loop muted plays-inline width="720">
+    <div class="video-overlay">
+        <video autoplay loop muted playsinline >
             <source src="/assets/img/winner_spinner.mp4" type="video/mp4">
         </video>
-      </div>
     </div>
-  </div>
+</div>
   <!-- <script>
     const Days = document.getElementById('days');
     const Hours = document.getElementById('hours');
