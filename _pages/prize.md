@@ -118,11 +118,11 @@ h1{
     justify-content: center;
 }
 
-.video-overlay video {
-    width: 100%; /* Adjust video size to fit within the frame */
-    max-width: 720px; /* Match the video width to the image frame */
+.video-overlay iframe {
+    /* Adjust video size to fit within the frame */
+    /* Match the video width to the image frame */
     margin-top: -100px;
-    height: auto;
+    /* height: auto; */
 }
 </style>
 </head>
@@ -134,9 +134,7 @@ h1{
         <img src="/img/mobile-size.png" class="img-fluid" alt="Responsive image"/>
     </picture>
     <div class="video-overlay">
-        <video autoplay loop muted playsinline >
-            <source src="../assets/img/winner_spinner.mp4" type="video/mp4">
-        </video>
+    <iframe width="920" height="440" src="https://www.youtube.com/embed/xCQlYr3ebJc" title="winner spinner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
   <!-- <script>
