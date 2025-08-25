@@ -3,8 +3,8 @@ import json
 from datetime import datetime, timedelta
 
 # Strava API credentials
-ACCESS_TOKEN = "a179925dad1c22c00bc449878373cfba3f7a58d0"
-ATHLETE_ID = 127010
+ACCESS_TOKEN = <<access token here>>
+ATHLETE_ID = <<id here>>
 
 # Fetch the latest activities
 def get_activities():
