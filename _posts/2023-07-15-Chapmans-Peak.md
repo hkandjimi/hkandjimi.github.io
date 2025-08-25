@@ -6,6 +6,7 @@ description: Two oceans drive through Chapman's peak drive, started in Grassy pa
 tags: capetown bmw
 categories: weekend-drive
 thumbnail: assets/img/chapmans.jpeg
+type: blog
 images:
   compare: true
   slider: true
@@ -15,6 +16,7 @@ Saturday drive trying to kill time and see places around Cape Town, was interest
 <div class="videoWrapper">
   <!-- Copy & Pasted from YouTube -->
   <iframe width="1276" height="718" src="https://www.youtube.com/embed/I3IoNr3cMKI" title="Chapman&#39;s Peak Drive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
 </div>
 
 

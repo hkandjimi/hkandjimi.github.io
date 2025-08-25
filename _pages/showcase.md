@@ -1,23 +1,14 @@
 ---
 layout: default
-permalink: /blog/
-title: Travel Blog
-# nav: true
-# nav_order: 1
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+permalink: /showcase/
+title: showcase
+nav: true
+nav_order: 4
+description: A list of projects to showcase my experience in Data Science, Analytics and Visualisation done either in PowerBI, Tableau or BOTH.
 ---
 {% assign all_tags = "" %}
 {% for post in site.posts %}
-  {% if post.type != 'showcase' %}
+  {% if post.type == 'showcase' %}
     {% assign tags = post.tags | split:' '%}
     {% assign display_categories = post.categories | split:' '%}
       {% for post in tags %}
@@ -42,8 +33,8 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h3 class="text-primary">{{ site.blog_name }} </h3>
-    <h4>{{ site.blog_description }}</h4>
+    <h3 class="text-primary">{{ site.showcase_name }} </h3>
+    <h4>{{ site.showcase_description }}</h4>
   </div>
   {% endif %}
 
@@ -123,9 +114,9 @@ pagination:
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts | where: "type", "blog" %}
+      {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts | where: "type", "blog" %}
+      {% assign postlist = site.posts | where: "type", "showcase" %}
     {% endif %}
 
     {% for post in postlist %}
@@ -137,7 +128,7 @@ pagination:
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
+    {% assign categories = post.categories | join: "" %} 
 
     <li>
 
@@ -182,7 +173,7 @@ pagination:
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp; 
               {% endfor %}
           {% endif %}
     </p>

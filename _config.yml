@@ -139,6 +139,20 @@ pagination:
 related_blog_posts:
   enabled: true
   max_related: 5
+# -----------------------------------------------------------------------------
+# Showcase
+# -----------------------------------------------------------------------------
+showcase_name: Data Science/Analytics Project Showcase # blog_name will be displayed in your blog page
+showcase_description: A list of projects to showcase my experience in Data Science, Analytics and Visualisation done either in PowerBI, Tableau or BOTH.
+permalink: /showcase/:year/:title/
+
+# Pagination
+pagination:
+  enabled: true
+
+related_showcase_posts:
+  enabled: true
+  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -326,7 +340,7 @@ enable_publication_badges:
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, arxiv, award, award_name, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+  [abbr, abstract, altmetric, arxiv, award, award_name, bibtex_show, blog,showcase, code, html, pdf, poster, preview, selected, slides, supp, video, website]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3 # leave blank to always show all authors
